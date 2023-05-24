@@ -7,6 +7,10 @@ spring:
       url: jdbc:mysql://43.142.90.238:3306/db_ruanwei?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&allowPublicKeyRetrieval=true
       username: db_ruanwei
       password: HGpdTAGTt5piczyd
+#      url: jdbc:mysql://localhost:3306/db_ruanwei?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&allowPublicKeyRetrieval=true
+#      username: root
+#      password: 123456
+
 mybatis-plus:
   configuration:
     #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射
